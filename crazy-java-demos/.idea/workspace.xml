@@ -69,14 +69,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YieldTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="YieldTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch16_4/YieldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="95">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="e#121#122#0" expanded="true" />
                 <element signature="e#148#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PriorityTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch16_4/PriorityTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,6 +159,7 @@
         <option value="$PROJECT_DIR$/src/ch16_4/DaemonThread.java" />
         <option value="$PROJECT_DIR$/src/ch16_4/SleepTest.java" />
         <option value="$PROJECT_DIR$/src/ch16_4/YieldTest.java" />
+        <option value="$PROJECT_DIR$/src/ch16_4/PriorityTest.java" />
       </list>
     </option>
   </component>
@@ -248,27 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.YieldTest">
-    <configuration default="false" name="StartDead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="chapter16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="chapter16.StartDead" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="crazy-java-demos" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.PriorityTest">
     <configuration default="false" name="JoinThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -337,6 +331,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ch16_4.YieldTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="crazy-java-demos" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PriorityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch16_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ch16_4.PriorityTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -714,19 +728,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StartDead" />
-      <item index="1" class="java.lang.String" itemvalue="Application.JoinThread" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DaemonThread" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SleepTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.YieldTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.JoinThread" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DaemonThread" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SleepTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.YieldTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PriorityTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.YieldTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SleepTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DaemonThread" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JoinThread" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StartDead" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PriorityTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.YieldTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SleepTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DaemonThread" />
+        <item index="4" class="java.lang.String" itemvalue="Application.JoinThread" />
       </list>
     </recent_temporary>
   </component>
@@ -742,12 +756,12 @@
       <updated>1521776002098</updated>
       <workItem from="1521776022912" duration="12000" />
       <workItem from="1521776073798" duration="2306000" />
-      <workItem from="1521785536707" duration="4791000" />
+      <workItem from="1521785536707" duration="5334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7109000" />
+    <option name="totallyTimeSpent" value="7652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -774,7 +788,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3994253" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -906,11 +920,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch16_4/YieldTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="95">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="e#121#122#0" expanded="true" />
             <element signature="e#148#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch16_4/PriorityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
           </folding>
         </state>
       </provider>
