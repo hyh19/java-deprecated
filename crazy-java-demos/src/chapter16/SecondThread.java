@@ -1,3 +1,5 @@
+package chapter16;
+
 public class SecondThread implements Runnable {
     // 多个线程将共享该局部变量
     private int i;

@@ -1,3 +1,5 @@
+package chapter16;
+
 public class FirstThread extends Thread {
 
     private int i;
