@@ -82,14 +82,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PriorityTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PriorityTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch16_4/PriorityTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#124#125#0" expanded="true" />
                 <element signature="e#151#152#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPoolTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch16_8/ThreadPoolTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,16 +112,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="475">
               <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirstThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter16/FirstThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -160,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/ch16_4/SleepTest.java" />
         <option value="$PROJECT_DIR$/src/ch16_4/YieldTest.java" />
         <option value="$PROJECT_DIR$/src/ch16_4/PriorityTest.java" />
+        <option value="$PROJECT_DIR$/src/ch16_8/ThreadPoolTest.java" />
       </list>
     </option>
   </component>
@@ -236,6 +239,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ch16_8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crazy-java-demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crazy-java-demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ch16_4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -262,27 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PriorityTest">
-    <configuration default="false" name="JoinThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ch16_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="ch16_4.JoinThread" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="crazy-java-demos" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadPoolTest">
     <configuration default="false" name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -351,6 +352,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ch16_4.PriorityTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="crazy-java-demos" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ch16_8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ch16_8.ThreadPoolTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -728,19 +749,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.JoinThread" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DaemonThread" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SleepTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.YieldTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PriorityTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DaemonThread" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SleepTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.YieldTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PriorityTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ThreadPoolTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PriorityTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.YieldTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SleepTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DaemonThread" />
-        <item index="4" class="java.lang.String" itemvalue="Application.JoinThread" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ThreadPoolTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PriorityTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.YieldTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SleepTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DaemonThread" />
       </list>
     </recent_temporary>
   </component>
@@ -756,12 +777,12 @@
       <updated>1521776002098</updated>
       <workItem from="1521776022912" duration="12000" />
       <workItem from="1521776073798" duration="2306000" />
-      <workItem from="1521785536707" duration="5334000" />
+      <workItem from="1521785536707" duration="6972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7652000" />
+    <option name="totallyTimeSpent" value="9290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -931,11 +952,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch16_4/PriorityTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#124#125#0" expanded="true" />
             <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch16_8/ThreadPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
