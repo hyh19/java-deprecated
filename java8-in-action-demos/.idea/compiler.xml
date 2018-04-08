@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="java8-in-action-demos" />
         <module name="MyJava8InAction" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="java8-in-action-demos" target="1.8" />
       <module name="MyJava8InAction" target="1.8" />
     </bytecodeTargetLevel>
   </component>
