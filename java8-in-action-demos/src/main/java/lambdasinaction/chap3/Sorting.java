@@ -11,6 +11,7 @@ public class Sorting {
         List<Apple> inventory = new ArrayList<>();
         inventory.addAll(Arrays.asList(new Apple(80, "green"), new Apple(155, "green"), new Apple(120, "red")));
 
+        // 传递代码
         // inventory.sort(new AppleComparator());
 
         // 匿名类
@@ -26,6 +27,8 @@ public class Sorting {
 
         // 函数引用
         inventory.sort(Comparator.comparing(Apple::getWeight));
+
+
 
         System.out.println(inventory);
     }
