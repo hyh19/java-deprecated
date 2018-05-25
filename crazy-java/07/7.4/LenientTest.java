@@ -4,7 +4,7 @@ import static java.util.Calendar.*;
 
 /**
  * Description:
- * <br/>ÍøÕ¾: <a href="http://www.crazyit.org">·è¿ñJavaÁªÃË</a>
+ * <br/>ç½‘ç«™: <a href="http://www.crazyit.org">ç–¯ç‹‚Javaè”ç›Ÿ</a>
  * <br/>Copyright (C), 2001-2016, Yeeku.H.Lee
  * <br/>This program is protected by copyright laws.
  * <br/>Program Name:
@@ -17,13 +17,13 @@ public class LenientTest
 	public static void main(String[] args)
 	{
 		Calendar cal = Calendar.getInstance();
-		// ½á¹ûÊÇYEAR×Ö¶Î¼Ó1£¬MONTH×Ö¶ÎÎª1£¨¶şÔÂ£©
-		cal.set(MONTH , 13);   //¢Ù
+		// ç»“æœæ˜¯YEARå­—æ®µåŠ 1ï¼ŒMONTHå­—æ®µä¸º1ï¼ˆäºŒæœˆï¼‰
+		cal.set(MONTH , 13);   //â‘ 
 		System.out.println(cal.getTime());
-		// ¹Ø±ÕÈİ´íĞÔ
+		// å…³é—­å®¹é”™æ€§
 		cal.setLenient(false);
-		// µ¼ÖÂÔËĞĞÊ±Òì³£
-		cal.set(MONTH , 13);   //¢Ú
+		// å¯¼è‡´è¿è¡Œæ—¶å¼‚å¸¸
+		cal.set(MONTH , 13);   //â‘¡
 		System.out.println(cal.getTime());
 	}
 }
