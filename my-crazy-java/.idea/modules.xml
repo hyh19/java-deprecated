@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/crazy-java-demos.iml" filepath="$PROJECT_DIR$/crazy-java-demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-crazy-java.iml" filepath="$PROJECT_DIR$/my-crazy-java.iml" />
     </modules>
   </component>
 </project>

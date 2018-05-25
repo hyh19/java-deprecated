@@ -2,7 +2,7 @@
 import java.util.*;
 /**
  * Description:
- * <br/>ÍøÕ¾: <a href="http://www.crazyit.org">·è¿ñJavaÁªÃË</a>
+ * <br/>ç½‘ç«™: <a href="http://www.crazyit.org">ç–¯ç‹‚Javaè”ç›Ÿ</a>
  * <br/>Copyright (C), 2001-2016, Yeeku.H.Lee
  * <br/>This program is protected by copyright laws.
  * <br/>Program Name:
@@ -15,7 +15,7 @@ public class DateTest
 	public static void main(String[] args)
 	{
 		Date d1 = new Date();
-		// »ñÈ¡µ±Ç°Ê±¼äÖ®ºó100msµÄÊ±¼ä
+		// è·å–å½“å‰æ—¶é—´ä¹‹å100msçš„æ—¶é—´
 		Date d2 = new Date(System.currentTimeMillis() + 100);
 		System.out.println(d2);
 		System.out.println(d1.compareTo(d2));
